@@ -8,9 +8,10 @@
              // we can ignore values of y that we know have already been added to an x iterated obj.
     // new method: iterate over x, 
                    // if we filter values from y to an x obj. 
+                        // y is clone of y..
                         // save array y without the filtered values from previous x filter.
-                        // use a binary search to reduce y each time removing all values less or greater than x.value.
-           
-           
-         
+                        
+                   // if we use a binary search on y, we need to sort them first. which takes longer than a simple for loop.
+                       and we're still starting with the same amount of values for y with each x object.
+                       
 //       
